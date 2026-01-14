@@ -145,7 +145,7 @@
             "kg2": "1",
             "customLink": "https://www.shcmusic.edu.cn/"
         },
-        // 第6行
+       
         {
             "dwdm": "10279",
             "dwmc": "上海戏剧学院",
@@ -157,8 +157,8 @@
             "dwdm": "10280",
             "dwmc": "上海大学",
             "cxfs": "sch",
-            "kg2": "0", // 未设置查询方式（对应原页面提示）
-            "customLink": ""
+            "kg2": "1", 
+            "customLink": "https://www.china-drama.edu.cn/"
         },
         {
             "dwdm": "10856",
