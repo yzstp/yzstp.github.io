@@ -486,7 +486,11 @@ gtag('config', 'UA-100524-7', {'sample_rate': 5});
                                 <td v-for="tdIndex in 4">
                                     <template v-if="schList[(trIndex-1)*4 + tdIndex - 1]">
                                         <template v-if="handleOpen(schList[(trIndex-1)*4 + tdIndex - 1])">
-                                            <a :href="'https://yz.chsi.com.cn/apply/cjcx/sch/'+schList[(trIndex-1)*4 + tdIndex - 1].dwdm+'.dhtml'">({{schList[(trIndex-1)*4 + tdIndex - 1].dwdm}}){{schList[(trIndex-1)*4 + tdIndex - 1].dwmc}}</a>
+                                           <!-- 优先使用customLink，无则沿用原地址；外部链接新开标签 -->
+<a 
+  :href="schList[(trIndex-1)*4 + tdIndex - 1].customLink || ('https://yz.chsi.com.cn/apply/cjcx/sch/'+schList[(trIndex-1)*4 + tdIndex - 1].dwdm+'.dhtml')"
+  :target="schList[(trIndex-1)*4 + tdIndex - 1].customLink ? '_blank' : '_self'"
+>({{schList[(trIndex-1)*4 + tdIndex - 1].dwdm}}){{schList[(trIndex-1)*4 + tdIndex - 1].dwmc}}</a>
                                         </template>
                                         <template v-else>
                                             <Tooltip>
@@ -933,3 +937,4 @@ gtag('config', 'UA-100524-7', {'sample_rate': 5});
 </body>
 
 </html>
+
