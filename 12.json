@@ -1,21 +1,16 @@
-{"rad":"","dms":
-[
-  {
-            "dwdm": "10246",
-            "dwmc": "复旦大学",
-            "cxfs": "sch",
-            "kg2": "1",
-            "customLink": "https://www.fudan.edu.cn/"
-  },
-  { 
-            "dwdm": "10247",
-            "dwmc": "同济大学",
-            "cxfs": "sch",
-            "kg2": "1",
-            "customLink": "https://www.tongji.edu.cn/"
-  }
-]
+{
+  "rad": "",
+  "dms": [
+    {
+      "dwdm": "10246",
+      "dwmc": "<a href=\"https://www.fudan.edu.cn/\" target=\"_blank\">复旦大学</a>",
+      "cxfs": "sch",
+      "kg2": "1",
+      "customLink": "https://www.fudan.edu.cn/"
+    }
+  ]
 }
+
 
 
 
