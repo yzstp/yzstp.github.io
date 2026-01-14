@@ -1,24 +1,21 @@
 {"rad":"","dms":
 [
   {
-    "dwdm": "10246",
-    "dwmc": "复旦大学",
-    "schurl": "",
-    "kg2": "",
-    "cxfs": "",
-    "kg": "",
-    "needlogin": ""
+            "dwdm": "10246",
+            "dwmc": "复旦大学",
+            "cxfs": "sch",
+            "kg2": "1",
+            "customLink": "https://www.fudan.edu.cn/"
   },
-  {
-    "dwdm": "10247",
-    "dwmc": "同济大学",
-    "schurl": "",
-    "kg2": "1",
-    "cxfs": "https://yzstp.github.io/yz.chsi.com.cn.grade.html",
-    "kg": "1",
-    "needlogin": "0"
+  { 
+            "dwdm": "10247",
+            "dwmc": "同济大学",
+            "cxfs": "sch",
+            "kg2": "1",
+            "customLink": "https://www.tongji.edu.cn/"
   }
 ]
 }
+
 
 
